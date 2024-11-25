@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cil</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <a href="#hero" class="logo">
+            <img src="./img/logo.png" alt="" />
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a href="#partners" class="nav__link">Партнеры</a>
+            </li>
+            <li class="nav__item">
+              <a href="#request" class="nav__link">Заявка</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <!-- ХИРО -->
+        <section class="section__hero" id="hero">
+          <h1 class="hero__title">Consulting Industrial Logistics</h1>
+          <p class="hero__text">
+            компания на рынке с 2021 г. динамично развивается в сфере
+            консалтинга в направлении транспорта и промышленной логистики
+          </p>
+          <div class="img-container">
+            <img src="img/hero_img.png" alt="" class="hero__img" />
+          </div>
+        </section>
+        <!-- УСЛУГИ -->
+        <section class="section__services">
+          <h2 class="services__title" id="services">Услуги</h2>
+          <p class="services__info">
+            Наша компания может предложить вам следующие услуги:
+          </p>
+          <ul class="services__list">
+            <li class="services__item">
+              Повышение транспортно-логистической эффективности промышленных
+              предприятий(тут может быть фото)
+            </li>
+            <li class="services__item">
+              Имитационное моделирование транспортно-логистических и складских
+              технологических процессов, построение прогнозных финансовых
+              моделей(тут может быть фото)
+            </li>
+            <li class="services__item">
+              Разработка концепций транспортного и логистического обеспечения
+              объектов(тут может быть фото)
+            </li>
+            <li class="services__item">
+              Анализ выполненных проектов. Предпроектных решений, транспортного
+              обеспечения объектов. Формирование изменений , корректировки
+              решений, выработка новых(тут может быть фото)
+            </li>
+            <li class="services__item">
+              Сервисное сопровождение выработанных решений.(тут может быть фото)
+            </li>
+          </ul>
+        </section>
+        <!-- ПАРТНЕРЫ -->
+        <section class="section__partners">
+          <div class="left-wrapper">
+            <h2 class="partners__title" id="partners">С кем мы работали?</h2>
+            <ul class="partners__list">
+              <li class="partners__item">
+                компания оказывала услуги как частным инвесторам, так и
+                холдингам.
+              </li>
+              <li class="partners__item">
+                анализ проектной документации транспортной инфраструктуры
+              </li>
+              <li class="partners__item">
+                анализ документации по моделированию транспортной инфраструктуры
+              </li>
+              <li class="partners__item">
+                Предпроектная проработка транспортной инфраструктуры
+              </li>
+              <li class="partners__item">
+                Предпроектная проработка транспортной инфраструктуры
+              </li>
+            </ul>
+          </div>
+          <div class="right-wrapper">
+            <ul class="partners__list-img">
+              <li class="partners__item-img">
+                <img src="img/partners1.png" alt="" />
+              </li>
+              <li class="partners__item-img">
+                <img src="img/partners2.png" alt="" />
+              </li>
+              <li class="partners__item-img">
+                <img src="img/partners3.png" alt="" />
+              </li>
+              <li class="partners__item-img">
+                <img src="img/partners4.png" alt="" />
+              </li>
+              <li class="partners__item-img partners__item-img-middle">
+                <img src="img/partners_middle.png" alt="" />
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- КАРТА -->
+        <section class="section__map">
+          <div class="left-wrapper">
+            <h2 class="map__title">Где мы работаем</h2>
+            <p class="map__text">
+              География выполненных нами проектов: Москва, Санкт-Петербург,
+              Новосибирск, Владивосток, Екатеринбург...
+            </p>
+          </div>
+          <div class="right-wrapper">
+            <img src="img/map.png" alt="" class="map__img" />
+          </div>
+        </section>
+    </div>
+        <!-- ЗАЯВКА -->
+        <section class="section__request">
+          <div class="container-full">
+            <div class="request__wrapper">
+              <h2 class="request__title" id="request">Подать заявку</h2>
+              <p class="request__text">
+                Напишите нам какую услугу вы хотели бы заказать, и мы свяжемся с
+                вами:
+              </p>
+              <input type="text" class="input request__service" placeholder="Описание услуги"/>
+              <input type="text" class="input request__info" placeholder="Способ обратной связи"/>
+              <button class="btn request__btn">Отправить</button>
+            </div>
+          </div>
+        </section>
+        <!-- КОНТАКТЫ -->
+        <div class="container">
+          <section class="section__contacts">
+            <div class="left-wrapper">
+              <h2 class="contacts__title" id="contacts">Контакты:</h2>
+              <div class="contacts__logo-wrapper">
+                <img src="img/logo.png" alt="" class="contacts__logo-img">
+              </div>
+            </div>
+            <div class="right-wrapper">
+              <div class="contacts__info">
+                <p class="contacts__item contacts__item-mail">OOOCIL@YANDEX</p>
+                <p class="contacts__item contacts__item-phone">8-965-329-76-04</p>
+                <p class="contacts__item contacts__item-teleg">8-965-329-76-04</p>
+                <p class="contacts__item contacts__item-whatsapp">8-965-329-76-04</p>
+                <p class="contacts__item contacts__item-geo">г Москва ул Новогиреево д38</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

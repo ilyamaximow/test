@@ -1,0 +1,304 @@
+body {
+  font-family: Inter;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 150px 90px;
+  max-width: 1400px;
+  background-color: #fff;
+}
+
+.section__hero {
+  position: relative;
+  margin-top: 65px;
+  padding-bottom: 190px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 60px;
+  max-width: 540px;
+}
+
+.hero__text {
+  margin-top: 15px;
+  font-size: 18px;
+  max-width: 540px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.img-container {
+  position: absolute;
+  left: 540px;
+  top: 15%;
+}
+
+.hero__img {
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+/* // ============ УСЛУГИ ============
+// ============ УСЛУГИ ============
+// ============ УСЛУГИ ============ */
+
+.section__services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto 60px;
+}
+
+.services__title {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.services__info {
+  font-size: 18px;
+  margin-bottom: 50px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.services__list {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px auto;
+  grid-gap: 35px;
+  display: grid;
+}
+
+.services__item {
+  display: block;
+  height: 287px;
+  padding: 25px;
+  background-color: rgb(244, 246, 250);
+}
+
+/* // ============ ПАРТНЕРЫ ============
+// ============ ПАРТНЕРЫ ============
+// ============ ПАРТНЕРЫ ============ */
+
+.section__partners {
+  display: flex;
+  margin: 70px auto;
+}
+
+.left-wrapper {
+  width: 50%;
+}
+
+.right-wrapper {
+  width: 50%;
+}
+
+.partners__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.partners__item {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.partners__list-img {
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px auto;
+  grid-gap: 150px;
+  display: grid;
+}
+
+.partners__item-img-middle {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
+
+/* // ============ КАРТА ============
+// ============ КАРТА ============
+// ============ КАРТА ============ */
+
+.section__map {
+  margin-top: 100px;
+  padding: 50px;
+  display: flex;
+  background-color: rgb(244, 246, 250);
+}
+
+.map__title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.map__text {
+  margin-top: 50px;
+}
+
+/* // ============ ЗАЯВКА ============
+// ============ ЗАЯВКА ============
+// ============ ЗАЯВКА ============ */
+
+.section__request {
+  position: relative;
+  height: 687px;
+  background: url("../img/request.png") no-repeat center center;
+  background-size: cover;
+}
+
+.container-full {
+  position: absolute;
+  top: 70px;
+  right: 165px;
+  width: 40%;
+  padding: 40px 70px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.request__title {
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.request__text {
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(71, 98, 255, 0.08);
+  border-radius: 8px;
+}
+
+.input::placeholder {
+  color: rgb(151, 151, 151);
+}
+
+.request__service {
+  margin-top: 55px;
+}
+
+.request__info {
+  margin-top: 25px;
+}
+
+.btn {
+  width: 100%;
+  padding: 22px 0px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: rgb(71, 98, 255);
+  border: 2px solid rgb(71, 98, 255);
+  border-radius: 8px;
+}
+
+.btn:hover {
+  color: rgb(71, 98, 255);
+  background-color: #ffffff;
+}
+
+.request__btn {
+  margin-top: 25px;
+}
+
+/* // ============ КОНТАКТЫ ============
+// ============ КОНТАКТЫ ============
+// ============ КОНТАКТЫ ============ */
+
+.section__contacts {
+  display: flex;
+  padding-top: 100px;
+}
+
+.contacts__title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.contacts__logo-wrapper {
+  margin-top: 125px;
+}
+
+.contacts__info {
+  margin-top: 25px;
+  margin-left: 30px;
+  display: grid;
+  flex-direction: row;
+  gap: 25%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.contacts__item {
+  position: relative;
+  width: 60%;
+}
+
+.contacts__item-mail::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 102%;
+  top: -2px;
+  background-image: url("../img/mail.webp");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts__item-phone::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 102%;
+  top: -2px;
+  background-image: url("../img/tel.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts__item-teleg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 102%;
+  top: -2px;
+  background-image: url("../img/telega.webp");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts__item-whatsapp::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 102%;
+  top: -2px;
+  background-image: url("../img/whatsapp.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts__item-geo::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 102%;
+  top: -2px;
+  background-image: url("../img/geo.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
