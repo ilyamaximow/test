@@ -15,15 +15,18 @@
     <title>cil</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container header__container">
         <div class="header__logo">
           <a href="#hero" class="logo">
-            <img src="./img/logo.png" alt="" />
+            <img src="./img/logo.jpg" alt="" class="logo__img" />
           </a>
         </div>
         <nav class="nav">
           <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#services" class="nav__link">О компании</a>
+            </li>
             <li class="nav__item">
               <a href="#services" class="nav__link">Услуги</a>
             </li>
@@ -34,146 +37,250 @@
               <a href="#request" class="nav__link">Заявка</a>
             </li>
             <li class="nav__item">
-              <a href="#contacts" class="nav__link">Контакты</a>
+              <a href="#contacts" class="nav__link contact__link">Контакты</a>
             </li>
+            <p class="header__tel">+7-936-252-1214</p>
           </ul>
         </nav>
-      </header>
-      <main>
+      </div>
+    </header>
+    <main>
+      <div class="container">
         <!-- ХИРО -->
-        <section class="section__hero" id="hero">
-          <h1 class="hero__title">Consulting Industrial Logistics</h1>
-          <p class="hero__text">
-            компания на рынке с 2021 г. динамично развивается в сфере
-            консалтинга в направлении транспорта и промышленной логистики
-          </p>
-          <div class="img-container">
-            <img src="img/hero_img.png" alt="" class="hero__img" />
+        <section class="section__hero">
+          <div class="left-wrapper">
+            <h1 class="hero__title">Consulting Industrial Logistics</h1>
+            <p class="hero__text" id="services">
+              Компания с 2021 г. динамично развивается в сфере консультационных
+              услуг по направлению повышения эффективности логистики
+              промышленных объектов. Конкурентным преимуществом компании
+              является практическая реализация ее решений, основанных на
+              реальном опыте управления транспортными активами и обследовании
+              более 200 российских и зарубежных предприятий.
+            </p>
+          </div>
+          <div class="right-wrapper">
+            <img src="img/hero_img.jpg" alt="" class="hero__img" />
           </div>
         </section>
         <!-- УСЛУГИ -->
         <section class="section__services">
-          <h2 class="services__title" id="services">Услуги</h2>
-          <p class="services__info">
-            Наша компания может предложить вам следующие услуги:
-          </p>
+          <h2 class="services__title">Услуги</h2>
+          <p class="services__info">Компания предлагает следующие услуги:</p>
           <ul class="services__list">
             <li class="services__item">
-              Повышение транспортно-логистической эффективности промышленных
-              предприятий(тут может быть фото)
+              <h3 class="item__title">
+                Повышение транспортно-логистической эффективности промышленных
+                предприятий:
+              </h3>
+              <p class="item__info">
+                Определение элементов мешающих работе и разработка решений по их
+                устранению;
+              </p>
+              <p class="item__info">
+                Оценка существующих резервов и поиск направлений развития;
+              </p>
+              <p class="item__info">
+                Разработка параметров эффективности, сопровождение до их
+                достижения.
+              </p>
+              <img src="img/services_1.png" alt="" class="services__img" />
             </li>
             <li class="services__item">
-              Имитационное моделирование транспортно-логистических и складских
-              технологических процессов, построение прогнозных финансовых
-              моделей(тут может быть фото)
+              <h3 class="item__title">
+                Имитационное моделирование транспортно-логистических и складских
+                технологических процессов, построение прогнозных финансовых
+                моделей:
+              </h3>
+              <p class="item__info">
+                Подтверждение решений посредством имитационной модели;
+              </p>
+              <p class="item__info">
+                Имитация заказчиком ситуации при изменении необходимых
+                параметров;
+              </p>
+              <p class="item__info">
+                Разработка модели для оценки финансового результата в требуемом
+                периоде.
+              </p>
+              <img src="img/services_2.png" alt="" />
             </li>
             <li class="services__item">
-              Разработка концепций транспортного и логистического обеспечения
-              объектов(тут может быть фото)
+              <h3 class="item__title">
+                Разработка концепций транспортного и логистического обеспечения
+                объектов:
+              </h3>
+              <p class="item__info">
+                Разработка конфигурации новых логистических процессов, включая
+                транспортную инфраструктуру;
+              </p>
+              <p class="item__info">
+                Сопряжение существующих процессов с новыми (в т.ч. транспортной
+                инфраструктуры);
+              </p>
+              <p class="item__info">
+                Технико-экономическое обоснование концепта.
+              </p>
+              <img src="img/services_3.jpg" alt="" />
             </li>
             <li class="services__item">
-              Анализ выполненных проектов. Предпроектных решений, транспортного
-              обеспечения объектов. Формирование изменений , корректировки
-              решений, выработка новых(тут может быть фото)
+              <h3 class="item__title">Анализ выполненных проектов:</h3>
+              <p class="item__info">
+                Оценка технических условий для присоединения к инфраструктуре
+                общего пользования, снижение финансовой нагрузки;
+              </p>
+              <p class="item__info">
+                Оценка предлагаемых решений на достаточность, избыточность и
+                технологичность с точки зрения практического применения;
+              </p>
+              <p class="item__info">
+                Представление интересов заказчика по реализации предлагаемых
+                изменений.
+              </p>
+              <img src="img/services_4.jpg" alt="" />
             </li>
-            <li class="services__item">
-              Сервисное сопровождение выработанных решений.(тут может быть фото)
+            <li class="services__item" id="partners">
+              <h3 class="item__title">
+                Сервисное сопровождение выработанных решений:
+              </h3>
+              <p class="item__info">
+                Участие в проектной команде заказчика при реализации решений в
+                требуемом объеме;
+              </p>
+              <p class="item__info">
+                Обеспечение дополнительных решений в период сопровождения;
+              </p>
+              <p class="item__info">
+                Оказание содействия в стандартизации и автоматизации требуемых
+                процессов.
+              </p>
+              <img src="img/services_5.jpg" alt="" />
             </li>
           </ul>
         </section>
         <!-- ПАРТНЕРЫ -->
         <section class="section__partners">
-          <div class="left-wrapper">
-            <h2 class="partners__title" id="partners">С кем мы работали?</h2>
-            <ul class="partners__list">
-              <li class="partners__item">
-                компания оказывала услуги как частным инвесторам, так и
-                холдингам.
-              </li>
-              <li class="partners__item">
-                анализ проектной документации транспортной инфраструктуры
-              </li>
-              <li class="partners__item">
-                анализ документации по моделированию транспортной инфраструктуры
-              </li>
-              <li class="partners__item">
-                Предпроектная проработка транспортной инфраструктуры
-              </li>
-              <li class="partners__item">
-                Предпроектная проработка транспортной инфраструктуры
-              </li>
-            </ul>
-          </div>
-          <div class="right-wrapper">
-            <ul class="partners__list-img">
-              <li class="partners__item-img">
-                <img src="img/partners1.png" alt="" />
-              </li>
-              <li class="partners__item-img">
-                <img src="img/partners2.png" alt="" />
-              </li>
-              <li class="partners__item-img">
-                <img src="img/partners3.png" alt="" />
-              </li>
-              <li class="partners__item-img">
-                <img src="img/partners4.png" alt="" />
-              </li>
-              <li class="partners__item-img partners__item-img-middle">
-                <img src="img/partners_middle.png" alt="" />
-              </li>
-            </ul>
-          </div>
+          <h2 class="partners__title">С кем работали?</h2>
+          <ul class="partners__list-img">
+            <li class="partners__item-img">
+              <img src="img/partners1.png" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners2.png" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners3.png" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners4.jpg" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners5.png" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners6.png" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners7.jpg" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners8.jpg" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners9.jpg" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img">
+              <img src="img/partners10.jpg" alt="" class="partenrs__img" />
+            </li>
+            <li class="partners__item-img partners__item-img-middle">
+              <img src="img/partners_middle.png" alt="" class="partenrs__img" />
+            </li>
+          </ul>
         </section>
         <!-- КАРТА -->
         <section class="section__map">
           <div class="left-wrapper">
-            <h2 class="map__title">Где мы работаем</h2>
-            <p class="map__text">
-              География выполненных нами проектов: Москва, Санкт-Петербург,
-              Новосибирск, Владивосток, Екатеринбург...
+            <h2 class="map__title">География проектов</h2>
+            <p class="map__text" id="request">
+              География выполненных нами проектов: Мончегорск, Норильск, Борзя,
+              Советская Гавань, Ульяновск, Находка, Юрга, Салехард, Москва,
+              Губкин, Новая Чара, Раджин КНДР, Карс Турция.
             </p>
           </div>
           <div class="right-wrapper">
-            <img src="img/map.png" alt="" class="map__img" />
+            <img src="img/map.jpg" alt="" class="map__img" />
           </div>
         </section>
-    </div>
-        <!-- ЗАЯВКА -->
-        <section class="section__request">
-          <div class="container-full">
+      </div>
+      <!-- ЗАЯВКА -->
+      <section class="section__request">
+        <div class="container-full">
+          <div class="request-window">
             <div class="request__wrapper">
-              <h2 class="request__title" id="request">Подать заявку</h2>
-              <p class="request__text">
-                Напишите нам какую услугу вы хотели бы заказать, и мы свяжемся с
-                вами:
+              <h2 class="request__title">Ждем вашу заявку</h2>
+              <form id="form" class="form" autocomplete="off">
+                <div class="input__box">
+                  <input
+                    type="text"
+                    id="back"
+                    name="back"
+                    class="input request__service"
+                    placeholder="Способ обратной связи"
+                  />
+                </div>
+                <div class="input__box">
+                  <textarea
+                    name="msg"
+                    id="msg"
+                    placeholder="Описание услуги"
+                    class="input request__info"
+                  ></textarea>
+                </div>
+                <button class="btn request__btn">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- КОНТАКТЫ -->
+      <div class="container">
+        <section class="section__contacts">
+          <div class="left-wrapper">
+            <h2 class="contacts__title" id="contacts">Контакты:</h2>
+            <div class="contacts__logo-wrapper">
+              <img src="img/logo.jpg" alt="" class="contacts__logo-img" />
+            </div>
+          </div>
+          <div class="right-wrapper">
+            <div class="contacts__info">
+              <a
+                href="mailto:ooocil@ooocil.ru"
+                class="contacts__item contacts__item-mail"
+                >ooocil@ooocil.ru</a
+              >
+              <a
+                href="tel:+79362521214"
+                class="contacts__item contacts__item-phone"
+                >+7-936-252-1214</a
+              >
+              <a
+                href="https://t.me/Consulting_industrial_logistic"
+                class="contacts__item contacts__item-teleg"
+                >ссылка на тг</a
+              >
+              <p class="contacts__item contacts__item-whatsapp">
+                +7-936-252-1214
               </p>
-              <input type="text" class="input request__service" placeholder="Описание услуги"/>
-              <input type="text" class="input request__info" placeholder="Способ обратной связи"/>
-              <button class="btn request__btn">Отправить</button>
+              <p class="contacts__item contacts__item-geo">
+                111396, г. Москва, пр-кт. Свободный, д.37/18
+              </p>
             </div>
           </div>
         </section>
-        <!-- КОНТАКТЫ -->
-        <div class="container">
-          <section class="section__contacts">
-            <div class="left-wrapper">
-              <h2 class="contacts__title" id="contacts">Контакты:</h2>
-              <div class="contacts__logo-wrapper">
-                <img src="img/logo.png" alt="" class="contacts__logo-img">
-              </div>
-            </div>
-            <div class="right-wrapper">
-              <div class="contacts__info">
-                <p class="contacts__item contacts__item-mail">OOOCIL@YANDEX</p>
-                <p class="contacts__item contacts__item-phone">8-965-329-76-04</p>
-                <p class="contacts__item contacts__item-teleg">8-965-329-76-04</p>
-                <p class="contacts__item contacts__item-whatsapp">8-965-329-76-04</p>
-                <p class="contacts__item contacts__item-geo">г Москва ул Новогиреево д38</p>
-              </div>
-            </div>
-          </section>
-        </div>
-      </main>
-    <script type="module" src="index.js"></script>
+      </div>
+    </main>
+    <footer></footer>
+    <script type="module" src="js/just-validate.min.js"></script>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>
