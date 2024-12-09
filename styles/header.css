@@ -37,7 +37,6 @@
 }
 
 .nav__list {
-  position: relative;
   display: flex;
   margin-left: 10px;
   justify-content: center;
@@ -63,14 +62,16 @@
   color: black;
 }
 
-/* .contact__link {
+.contact__link {
   position: relative;
-} */
+}
 
 .header__tel {
   position: absolute;
-  top: 70%;
-  right: 5%;
+  top: 35px;
+  right: 0;
+  width: 100%;
+  font-size: 12px;
 }
 
 @media (max-width: 800px) {

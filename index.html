@@ -37,9 +37,11 @@
               <a href="#request" class="nav__link">Заявка</a>
             </li>
             <li class="nav__item">
-              <a href="#contacts" class="nav__link contact__link">Контакты</a>
+              <a href="#contacts" class="nav__link contact__link"
+                >Контакты
+                <p class="header__tel">+7-936-252-1214</p>
+              </a>
             </li>
-            <p class="header__tel">+7-936-252-1214</p>
           </ul>
         </nav>
       </div>
@@ -48,7 +50,7 @@
       <div class="container">
         <!-- ХИРО -->
         <section class="section__hero">
-          <div class="left-wrapper">
+          <div class="left-wrapper-hero">
             <h1 class="hero__title">Consulting Industrial Logistics</h1>
             <p class="hero__text" id="services">
               Компания с 2021 г. динамично развивается в сфере консультационных
@@ -59,7 +61,7 @@
               более 200 российских и зарубежных предприятий.
             </p>
           </div>
-          <div class="right-wrapper">
+          <div class="right-wrapper-hero">
             <img src="img/hero_img.jpg" alt="" class="hero__img" />
           </div>
         </section>
@@ -211,47 +213,47 @@
             <img src="img/map.jpg" alt="" class="map__img" />
           </div>
         </section>
-      </div>
-      <!-- ЗАЯВКА -->
-      <section class="section__request">
-        <div class="container-full">
-          <div class="request-window">
-            <div class="request__wrapper">
-              <h2 class="request__title">Ждем вашу заявку</h2>
-              <form id="form" class="form" autocomplete="off">
-                <div class="input__box">
-                  <input
-                    type="text"
-                    id="back"
-                    name="back"
-                    class="input request__service"
-                    placeholder="Способ обратной связи"
-                  />
-                </div>
-                <div class="input__box">
-                  <textarea
-                    name="msg"
-                    id="msg"
-                    placeholder="Описание услуги"
-                    class="input request__info"
-                  ></textarea>
-                </div>
-                <button class="btn request__btn">Отправить</button>
-              </form>
+
+        <!-- ЗАЯВКА -->
+        <section class="section__request">
+          <div class="container-full">
+            <div class="request-window">
+              <div class="request__wrapper">
+                <h2 class="request__title">Ждем вашу заявку</h2>
+                <form id="form" class="form" autocomplete="off">
+                  <div class="input__box">
+                    <input
+                      type="text"
+                      id="back"
+                      name="back"
+                      class="input request__service"
+                      placeholder="Способ обратной связи"
+                    />
+                  </div>
+                  <div class="input__box">
+                    <textarea
+                      name="msg"
+                      id="msg"
+                      placeholder="Описание услуги"
+                      class="input request__info"
+                    ></textarea>
+                  </div>
+                  <button class="btn request__btn">Отправить</button>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- КОНТАКТЫ -->
-      <div class="container">
+        </section>
+        <!-- КОНТАКТЫ -->
+
         <section class="section__contacts">
-          <div class="left-wrapper">
+          <div class="left-wrapper-contacts">
             <h2 class="contacts__title" id="contacts">Контакты:</h2>
             <div class="contacts__logo-wrapper">
               <img src="img/logo.jpg" alt="" class="contacts__logo-img" />
             </div>
           </div>
-          <div class="right-wrapper">
+          <div class="right-wrapper-contacts">
             <div class="contacts__info">
               <a
                 href="mailto:ooocil@ooocil.ru"
