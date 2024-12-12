@@ -42,5 +42,6 @@ validation
     console.log(response);
 
     let result = await response.text();
-    alert(result);
+    // alert(result);
+    alert("заявка отправлена");
   });
