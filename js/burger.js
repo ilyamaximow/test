@@ -6,7 +6,7 @@ const POPUP_OPENED_CLASSNAME = "popup_open";
 const bodyNode = document.querySelector("body");
 const burgerNode = document.querySelector(".js-burger");
 const burgerBtnNode = document.querySelector(".js-burger-btn");
-const burgerBtnCloseNode = document.querySelector(".js-burger-close-btn");
+// const burgerBtnCloseNode = document.querySelector(".js-burger-close-btn");
 const burgerContentNode = document.querySelector(".js-burger__content");
 const popupNode = document.querySelector(".js-request-window");
 const popupContentNode = document.querySelector(".js-request__wrapper");
@@ -32,12 +32,13 @@ function togglePopup() {
 }
 
 burgerBtnNode.addEventListener("click", toggleBurger);
-burgerBtnCloseNode.addEventListener("click", toggleBurger);
+// burgerBtnCloseNode.addEventListener("click", toggleBurger);
 
 burgerNode.addEventListener("click", (event) => {
   const isClickOutsideContent = !event
     .composedPath()
     .includes(burgerContentNode);
+  console.log(event.target);
 
   if (isClickOutsideContent) {
     toggleBurger();

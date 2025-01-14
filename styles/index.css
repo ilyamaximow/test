@@ -243,13 +243,13 @@ body {
   margin: 70px auto;
 }
 
-.left-wrapper {
+/* .left-wrapper {
   width: 50%;
 }
 
 .right-wrapper {
   width: 50%;
-}
+} */
 
 .partners__title {
   margin: 0 auto 50px;
@@ -362,6 +362,10 @@ body {
   .partners__title {
     font-size: 36px;
   }
+
+  .partners__item-img {
+    width: 18%;
+  }
 }
 
 /* // ============ КАРТА ============
@@ -432,6 +436,8 @@ body {
 // ============ ЗАЯВКА ============ */
 
 .section__request {
+  margin-top: 150px;
+  margin-bottom: 450px;
   height: 400px;
   background: url("../img/request.jpg");
   background-size: cover;
@@ -554,6 +560,10 @@ body {
   .request_btn-open {
     top: 120px;
     left: 40%;
+  }
+
+  .section__request {
+    margin-bottom: 100px;
   }
 }
 
