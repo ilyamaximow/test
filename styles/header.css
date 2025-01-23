@@ -83,10 +83,10 @@
 
 .header__tel {
   position: absolute;
-  top: 55px;
+  top: 56px;
   right: 0;
   width: 100%;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .burger-btn {
